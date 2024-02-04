@@ -1,5 +1,5 @@
 local shakeDuration = 2000 -- Durata dello shake in millisecondi
-local shakeAmplitude = 0.1 -- Ampiezza dello shake
+local shakeAmplitude = 1.0 -- Ampiezza dello shake
 
 local shakeCamEnabled = false
 
