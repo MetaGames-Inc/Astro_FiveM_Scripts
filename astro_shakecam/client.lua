@@ -1,6 +1,5 @@
 local shakeDuration = 30000 -- Durata dello shake in millisecondi
 local shakeAmplitude = 4.3 -- Ampiezza dello shake
-local limit = 100
 local shakeCamEnabled = false
 
 RegisterNetEvent('playerCrashed')
@@ -31,17 +30,6 @@ AddEventHandler('playerCrashed', function()
 end)
 
 Citizen.CreateThread(function()
-    while true do
-        Citizen.Wait(0)
-        local vehicle = GetVehiclePedIsIn(PlayerPedId(), false)
-        if DoesEntityExist(vehicle) then 
-            local currentSpeed =  GetEntitySpeed(vehicle) * 4.2
-            while currentSpeed > limit do 
-                 ShakeGameplayCam('MEDIUM_EXPLOSION_SHAKE', shakeAmplitude)
-        Citizen.Wait(500)
-        currentSpeed = GetEntitySpeed(vehicle) * 3.23
-        overspeed = currentSpeed - limit 
-        shakeAmplitude = overspeed/500
         if shakeCamEnabled then
             ShakeGameplayCam('SMALL_EXPLOSION_SHAKE', shakeAmplitude)
             SetEntityLocallyInvisible(PlayerPedId())
@@ -53,7 +41,4 @@ Citizen.CreateThread(function()
             SetEntityInvincible(PlayerPedId(), false)
             Citizen.Wait(100)
         end
-    end
-end
-end
 end)
