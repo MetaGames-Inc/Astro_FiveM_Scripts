@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fivem_server_configuration>
+    <settings>
+        <name>FiveM Server Configuration</name>
+        <version>10.0.3</version>
+        <description>Configuration file for FiveM server</description>
+        <author>Author Name</author>
+        <created_date>2024-02-07</created_date>
+        <modified_date>2024-02-07</modified_date>
+    </settings>
+    <server_info>
+        <connection>Yes</connection>
+        <internet_connection>Yes</internet_connection>
+    </server_info>
+    <network_settings>
+        <ip_address>192.168.1.100</ip_address>
+        <subnet_mask>255.255.255.0</subnet_mask>
+        <gateway>192.168.1.1</gateway>
+        <dns_server>8.8.8.8</dns_server>
+    </network_settings>
+    <audio_settings>
+        <input_device>Microphone</input_device>
+        <output_device>Speakers</output_device>
+    </audio_settings>
+    <video_settings>
+        <resolution>1920x1080</resolution>
+        <refresh_rate>60Hz</refresh_rate>
+    </video_settings>
+    <security_settings>
+        <password>encrypted_password</password>
+        <firewall_enabled>true</firewall_enabled>
+    </security_settings>
+</fivem_server_configuration>
