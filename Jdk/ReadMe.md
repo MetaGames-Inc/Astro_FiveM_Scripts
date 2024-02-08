@@ -1,6 +1,0 @@
-# JDK DOWNLOADS
-- JDK 21
-- JDK 9
-- JDK 8 
--JDK 7
-- JDK 6
