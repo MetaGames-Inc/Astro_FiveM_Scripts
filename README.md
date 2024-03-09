@@ -4,8 +4,8 @@
 ## 📝 Instructions
 
 ### 📚 Prerequisites 
-- Install Gta5 (uffical website [https://store.rockstargames.com/it/game/buy-gta-v])
-- Install Fivem (Ufficial webiste [https://fivem.net])
+- Install Gta5 [Ufficial website](https://store.rockstargames.com/it/game/buy-gta-v)
+- Install Fivem [Ufficial website](https://fivem.net)
 
 ### 📥 Installation
   1. Open explorer Unzip file.
